@@ -1,0 +1,463 @@
+.page {
+  font-family: Arial;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+.header {
+  width: 100%;
+  color: #fff;
+  background: #445161;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  font-weight: 400;
+}
+.header-header-wrp {
+  width: 60%;
+}
+.header-title {
+  margin: 0 0 50px 0;
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.header-list {
+  list-style: none;
+  padding: 0 0 0 37px;
+}
+.header-item {
+  position: relative;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.header-item:before {
+  width: 25px;
+  height: 19px;
+  position: absolute;
+  content: "";
+  top: 8px;
+  left: -37px;
+  background: url("../img/check_icon_346.png");
+  background-size: 25px 19px;
+}
+.main {
+  width: 100%;
+  color: #333333;
+  background: #fff;
+  padding: 50px 0 0 0;
+  font-weight: 400;
+}
+.about-product {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px 50px 50px;
+}
+.about-product-wrp {
+  width: 55%;
+}
+.about-product-title {
+  margin: 0 0 30px 0;
+  color: #445161;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.about-product-text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+.dignity {
+  width: 100%;
+  padding: 50px;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+}
+.dignity-title {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #445161;
+}
+.dignity-list {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 0 42px;
+  justify-content: space-between;
+}
+.dignity-list-item {
+  margin: 30px 0 0 0;
+  width: 48%;
+  position: relative;
+}
+.dignity-list-item:before {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -42px;
+  background: url("../img/plus.png") no-repeat #445161;
+  background-position: center center;
+}
+.screenshots {
+  padding: 50px;
+}
+.screenshots-title {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #445161;
+}
+.screenshots-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.screenshots-item {
+  width: 49%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.screenshots-img {
+  padding-right: 20px;
+}
+.screenshots-item-title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #445161;
+  padding-bottom: 12px;
+}
+.screenshots-item-text {
+  line-height: 24px;
+}
+.reviews {
+  width: 100%;
+  padding: 50px;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+}
+.reviews-title {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #445161;
+}
+.reviews-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.reviews-item {
+  width: 49%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.reviews-img {
+  padding-right: 25px;
+}
+.reviews-item-img {
+  border-radius: 100px;
+  width: 75px;
+  height: 75px;
+}
+.reviews-comment {
+  background-color: #ecebec;
+  border-radius: 5px;
+  position: relative;
+  padding: 10px;
+}
+.reviews-comment:before {
+  content: "";
+  border: 15px solid transparent;
+  border-right: 15px solid #ecebec;
+  position: absolute;
+  top: 20px;
+  left: -30px;
+}
+.reviews-item-text {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  font-style: italic;
+  color: #333333;
+}
+.reviews-signature {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #989898;
+  padding-top: 10px;
+}
+.buy-now {
+  padding: 50px 145px;
+}
+.buy-now-title {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #445161;
+}
+.buy-now-wrp {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.buy-now-item {
+  width: 30%;
+  border: 2px solid #445161;
+  background-color: #445161;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+.buy-now-item-title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+.buy-now-item-price {
+  background-color: #fff;
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #445161;
+  padding: 15px;
+}
+.buy-now-item-list {
+  padding: 20px;
+  margin: 0 auto;
+  width: 85%;
+}
+.buy-now-item-list-item {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fff;
+}
+.buy-now-buy {
+  background-color: #fff;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #445161;
+  width: 85%;
+  margin: 0 auto;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.buy-now-buy:hover {
+  background-color: yellow;
+  color: red;
+}
+.buy-now-buy:active {
+  background-color: rgba(25, 226, 25, 0.781);
+}
+.footer {
+  background-color: #445161;
+}
+.contacts {
+  padding-bottom: 50px;
+}
+.contacts-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #fff;
+  padding: 60px 0 30px 0;
+  text-align: center;
+}
+.contacts-wrp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+.contacts-form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-right: 45px;
+}
+.contacts-form-input {
+  width: 500px;
+  height: 40px;
+  margin-bottom: 15px;
+  border: 1px solid #445161;
+  border-radius: 5px;
+  background-color: #fff;
+  outline: none;
+  padding: 10px;
+}
+.contacts-form-textarea {
+  width: 500px;
+  height: 170px;
+  margin-bottom: 15px;
+  border: 1px solid #445161;
+  border-radius: 5px;
+  background-color: #fff;
+  outline: none;
+  padding: 10px;
+  font-family: Arial;
+}
+.contacts-form-input::placeholder,
+.contacts-form-textarea::placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.contacts-form-input:focus,
+.contacts-form-textarea:focus {
+  border: 2px solid #61ad0a;
+  background-color: yellow;
+}
+.contacts-form-input:hover,
+.contacts-form-textarea:hover {
+  background-color: yellow;
+}
+.contacts-form-submit {
+  width: 140px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #445161;
+  padding: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #445161;
+  border-radius: 5px;
+  align-self: center;
+}
+.contacts-form-submit:hover {
+  background-color: yellow;
+  color: red;
+}
+.contacts-form-submit:active {
+  background-color: rgba(25, 226, 25, 0.781);
+  color: red;
+}
+.contacts-list-wrp {
+  width: 240px;
+}
+.contacts-list-item {
+  margin-bottom: 25px;
+  padding-left: 32px;
+  list-style-type: none;
+  position: relative;
+}
+.contacts-list-item-link {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+}
+.contacts-list-item-link:hover {
+  color: yellow;
+}
+.contacts-list-item-link:active {
+  color: rgba(25, 226, 25, 0.781);
+}
+.contacts-list-item:nth-child(1)::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background-image: url(../img/skype_icon.png);
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  left: -1px;
+}
+.contacts-list-item:nth-child(2)::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background-image: url(../img/icq_icon.png);
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  left: -1px;
+}
+.contacts-list-item:nth-child(3)::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background-image: url(../img/email_icon.png);
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  left: -1px;
+}
+.contacts-list-item:nth-child(4)::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background-image: url(../img/phone_icon.png);
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  left: -1px;
+}
+.contacts-socials {
+  display: flex;
+  justify-content: space-between;
+}
+.contacts-socials-net {
+  display: block;
+  width: 42px;
+  background-color: #fff;
+  border-radius: 100px;
+  text-align: center;
+}
+.contacts-socials-net:hover {
+  background-color: yellow;
+}
+.contacts-socials-net:active {
+  background-color: rgba(25, 226, 25, 0.781);
+}
+.fab {
+  color: #445161;
+  font-size: 23px;
+  line-height: 42px;
+  font-weight: 400;
+}
+.copyright {
+  background-color: #f5f5f5;
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 400;
+  text-align: center;
+}
